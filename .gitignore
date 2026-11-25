@@ -1,0 +1,17 @@
+/storage/*.sqlite
+/storage/*.sqlite-*
+/storage/*.log
+/storage/server.json
+/storage/documents/*
+!/storage/documents/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/storage/backups/*
+!/storage/backups/.gitkeep
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

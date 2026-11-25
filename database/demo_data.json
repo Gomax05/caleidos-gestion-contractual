@@ -1,0 +1,1160 @@
+{
+  "schema": 1,
+  "users": [
+    {
+      "id": "commercial",
+      "name": "Valeria Soto",
+      "email": "comercial@caleidos.pe",
+      "role": "commercial",
+      "active": true
+    },
+    {
+      "id": "legal",
+      "name": "Diego Mendoza",
+      "email": "legal@caleidos.pe",
+      "role": "legal",
+      "active": true
+    },
+    {
+      "id": "finance",
+      "name": "Alejandro Torres",
+      "email": "finanzas@caleidos.pe",
+      "role": "finance",
+      "active": true
+    },
+    {
+      "id": "management",
+      "name": "Laura García",
+      "email": "gerencia@caleidos.pe",
+      "role": "management",
+      "active": true
+    },
+    {
+      "id": "admin",
+      "name": "Andrea Ruiz",
+      "email": "admin@caleidos.pe",
+      "role": "admin",
+      "active": true
+    }
+  ],
+  "contracts": [
+    {
+      "id": "CL-2026-0012",
+      "client": "Acme Corporation",
+      "title": "Migración de infraestructura cloud",
+      "service": "Migración Cloud",
+      "amount": 48000,
+      "currency": "USD",
+      "stage": 0,
+      "status": "review",
+      "created": "2026-10-28T09:20:00-05:00",
+      "updated": "2026-10-28T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@acmecorporation.example",
+      "description": "Prestación de migración cloud para Acme Corporation, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-0-1",
+          "name": "acme-corporation_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-28T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: Acme Corporation\nAlcance: servicio inicial de consultoría.\nMonto: USD 48,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-0-2",
+          "name": "acme-corporation_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-28T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Ajustes a las cláusulas de confidencialidad.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: Acme Corporation\nAlcance: Migración de infraestructura cloud.\nMonto: USD 48,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 3,
+          "id": "seed-0-3",
+          "name": "acme-corporation_contrato_v3.pdf",
+          "size": 0,
+          "at": "2026-10-28T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: Acme Corporation\nAlcance: Migración de infraestructura cloud.\nMonto: USD 48,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "680bee97-60f2-43ec-a948-0751327c70de",
+          "at": "2026-10-28T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0011",
+      "client": "Interbank",
+      "title": "Servicios administrados AWS",
+      "service": "Servicios administrados",
+      "amount": 72000,
+      "currency": "USD",
+      "stage": 2,
+      "status": "review",
+      "created": "2026-10-27T09:20:00-05:00",
+      "updated": "2026-10-27T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@interbank.example",
+      "description": "Prestación de servicios administrados para Interbank, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-27T10:10:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-27T10:20:00-05:00",
+          "version": 2
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-1-1",
+          "name": "interbank_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-27T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE SERVICIOS ADMINISTRADOS\nCliente: Interbank\nAlcance: servicio inicial de consultoría.\nMonto: USD 72,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-1-2",
+          "name": "interbank_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-27T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE SERVICIOS ADMINISTRADOS\nCliente: Interbank\nAlcance: Servicios administrados AWS.\nMonto: USD 72,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "bcbaf145-cc43-4404-9261-85f283c2ae04",
+          "at": "2026-10-27T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "69bee0fc-e38f-4974-ba9c-5806b9da1223",
+          "at": "2026-10-27T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 2 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "99caf2e9-d9d9-4216-9c13-91dd9eea5ca8",
+          "at": "2026-10-27T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 2 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0010",
+      "client": "Rimac Seguros",
+      "title": "Consultoría de arquitectura cloud",
+      "service": "Consultoría tecnológica",
+      "amount": 28500,
+      "currency": "USD",
+      "stage": 1,
+      "status": "review",
+      "created": "2026-10-26T09:20:00-05:00",
+      "updated": "2026-10-26T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@rimacseguros.example",
+      "description": "Prestación de consultoría tecnológica para Rimac Seguros, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-26T10:10:00-05:00",
+          "version": 2
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-2-1",
+          "name": "rimac-seguros_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-26T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE CONSULTORÍA TECNOLÓGICA\nCliente: Rimac Seguros\nAlcance: servicio inicial de consultoría.\nMonto: USD 28,500.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-2-2",
+          "name": "rimac-seguros_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-26T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE CONSULTORÍA TECNOLÓGICA\nCliente: Rimac Seguros\nAlcance: Consultoría de arquitectura cloud.\nMonto: USD 28,500.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "5d66678d-7a1e-4f66-9ebd-bcc73872c474",
+          "at": "2026-10-26T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "a83d7ddb-1aa3-4291-80f5-4103fd0753f8",
+          "at": "2026-10-26T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 2 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0009",
+      "client": "Grupo Romero",
+      "title": "Implementación de plataforma digital",
+      "service": "Desarrollo de software",
+      "amount": 56000,
+      "currency": "USD",
+      "stage": 1,
+      "status": "observed",
+      "created": "2026-10-25T09:20:00-05:00",
+      "updated": "2026-10-25T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@gruporomero.example",
+      "description": "Prestación de desarrollo de software para Grupo Romero, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-25T10:10:00-05:00",
+          "version": 3
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-3-1",
+          "name": "grupo-romero_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-25T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE DESARROLLO DE SOFTWARE\nCliente: Grupo Romero\nAlcance: servicio inicial de consultoría.\nMonto: USD 56,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-3-2",
+          "name": "grupo-romero_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-25T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Ajustes a las cláusulas de confidencialidad.",
+          "text": "CONTRATO DE DESARROLLO DE SOFTWARE\nCliente: Grupo Romero\nAlcance: Implementación de plataforma digital.\nMonto: USD 56,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 3,
+          "id": "seed-3-3",
+          "name": "grupo-romero_contrato_v3.pdf",
+          "size": 0,
+          "at": "2026-10-25T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE DESARROLLO DE SOFTWARE\nCliente: Grupo Romero\nAlcance: Implementación de plataforma digital.\nMonto: USD 56,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [
+        {
+          "id": "18691a7b-2b0e-41a1-bd0f-e20ca47f02dd",
+          "text": "Precisar los entregables de la segunda fase y actualizar el plazo de pago a 30 días.",
+          "category": "Condiciones comerciales",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "at": "2026-10-25T11:30:00-05:00",
+          "version": 3,
+          "resolved": false
+        }
+      ],
+      "events": [
+        {
+          "id": "20636344-55b7-4898-a21d-480b89dfee95",
+          "at": "2026-10-25T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "eec62508-a5ee-4e4b-9e56-747e634ee0f2",
+          "at": "2026-10-25T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 3 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "8855d02b-8f78-4e23-8c86-965a1f08c353",
+          "at": "2026-10-25T11:30:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Correcciones solicitadas",
+          "detail": "Se registraron observaciones. Comercial debe adjuntar una nueva versión.",
+          "type": "observed"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0008",
+      "client": "Alicorp",
+      "title": "Soporte y continuidad operativa",
+      "service": "Soporte y mantenimiento",
+      "amount": 36000,
+      "currency": "USD",
+      "stage": 4,
+      "status": "approved",
+      "created": "2026-10-24T09:20:00-05:00",
+      "updated": "2026-10-24T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@alicorp.example",
+      "description": "Prestación de soporte y mantenimiento para Alicorp, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-24T10:10:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-24T10:20:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-24T10:30:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 3,
+          "user": "Laura García",
+          "at": "2026-10-24T10:40:00-05:00",
+          "version": 1
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-4-1",
+          "name": "alicorp_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-24T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE SOPORTE Y MANTENIMIENTO\nCliente: Alicorp\nAlcance: servicio inicial de consultoría.\nMonto: USD 36,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "b385ea80-8960-4b76-8e76-a707cde1f413",
+          "at": "2026-10-24T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "7718e2a5-940a-48f4-bb34-bfb90cf039a1",
+          "at": "2026-10-24T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 1 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "52c4c955-9d96-4b49-9003-3c7cbfbc8286",
+          "at": "2026-10-24T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 1 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "36ea9ae0-11df-414f-9f85-8babdb3130bf",
+          "at": "2026-10-24T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 1 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        },
+        {
+          "id": "a0ea1e86-1a48-4e5e-aa34-db2a8674210b",
+          "at": "2026-10-24T10:40:00-05:00",
+          "user": "Laura García",
+          "role": "management",
+          "action": "Aprobación de Gerencia",
+          "detail": "Versión 1 validada. Se completaron las cuatro aprobaciones.",
+          "type": "approved"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0007",
+      "client": "Pacífico Seguros",
+      "title": "Modernización de aplicaciones",
+      "service": "Desarrollo de software",
+      "amount": 64500,
+      "currency": "USD",
+      "stage": 3,
+      "status": "review",
+      "created": "2026-10-23T09:20:00-05:00",
+      "updated": "2026-10-23T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@pacficoseguros.example",
+      "description": "Prestación de desarrollo de software para Pacífico Seguros, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-23T10:10:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-23T10:20:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-23T10:30:00-05:00",
+          "version": 2
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-5-1",
+          "name": "pacífico-seguros_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-23T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE DESARROLLO DE SOFTWARE\nCliente: Pacífico Seguros\nAlcance: servicio inicial de consultoría.\nMonto: USD 64,500.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-5-2",
+          "name": "pacífico-seguros_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-23T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE DESARROLLO DE SOFTWARE\nCliente: Pacífico Seguros\nAlcance: Modernización de aplicaciones.\nMonto: USD 64,500.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "0d1862ec-b593-4543-ba0c-039a54f78563",
+          "at": "2026-10-23T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "01b4a32e-7261-42cf-8cf1-6e7c23f9fa81",
+          "at": "2026-10-23T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 2 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "6059ff12-995a-4852-a4cf-46eedd391116",
+          "at": "2026-10-23T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 2 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "1ff253fb-2985-4ac2-8b62-30334a378e3b",
+          "at": "2026-10-23T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 2 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0006",
+      "client": "Mibanco",
+      "title": "Evaluación de seguridad en la nube",
+      "service": "Consultoría tecnológica",
+      "amount": 18500,
+      "currency": "USD",
+      "stage": 0,
+      "status": "review",
+      "created": "2026-10-22T09:20:00-05:00",
+      "updated": "2026-10-22T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@mibanco.example",
+      "description": "Prestación de consultoría tecnológica para Mibanco, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-6-1",
+          "name": "mibanco_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-22T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE CONSULTORÍA TECNOLÓGICA\nCliente: Mibanco\nAlcance: servicio inicial de consultoría.\nMonto: USD 18,500.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "ce624b10-4eda-4808-9ff7-d74156aca95d",
+          "at": "2026-10-22T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0005",
+      "client": "Entel Perú",
+      "title": "Optimización de infraestructura AWS",
+      "service": "Migración Cloud",
+      "amount": 42000,
+      "currency": "USD",
+      "stage": 0,
+      "status": "observed",
+      "created": "2026-10-21T09:20:00-05:00",
+      "updated": "2026-10-21T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@entelper.example",
+      "description": "Prestación de migración cloud para Entel Perú, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-7-1",
+          "name": "entel-perú_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-21T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: Entel Perú\nAlcance: servicio inicial de consultoría.\nMonto: USD 42,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-7-2",
+          "name": "entel-perú_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-21T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: Entel Perú\nAlcance: Optimización de infraestructura AWS.\nMonto: USD 42,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [
+        {
+          "id": "99e14591-cce0-4aaa-b09d-476dfce5a4f2",
+          "text": "El cliente solicita ampliar la cláusula de confidencialidad a 24 meses e incluir el alcance del soporte.",
+          "category": "Cláusulas legales",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "at": "2026-10-21T11:30:00-05:00",
+          "version": 2,
+          "resolved": false
+        }
+      ],
+      "events": [
+        {
+          "id": "7bd9c566-4199-4383-887a-186ea1dbc1f7",
+          "at": "2026-10-21T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "264f3b7a-9c22-4850-ba54-8bcb002f771b",
+          "at": "2026-10-21T11:30:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Correcciones solicitadas",
+          "detail": "Se registraron observaciones. Comercial debe adjuntar una nueva versión.",
+          "type": "observed"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0004",
+      "client": "Ferreycorp",
+      "title": "Gestión de servicios cloud",
+      "service": "Servicios administrados",
+      "amount": 54000,
+      "currency": "USD",
+      "stage": 4,
+      "status": "signed",
+      "created": "2026-10-20T09:20:00-05:00",
+      "updated": "2026-10-20T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@ferreycorp.example",
+      "description": "Prestación de servicios administrados para Ferreycorp, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-20T10:10:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-20T10:20:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-20T10:30:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 3,
+          "user": "Laura García",
+          "at": "2026-10-20T10:40:00-05:00",
+          "version": 2
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-8-1",
+          "name": "ferreycorp_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-20T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE SERVICIOS ADMINISTRADOS\nCliente: Ferreycorp\nAlcance: servicio inicial de consultoría.\nMonto: USD 54,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-8-2",
+          "name": "ferreycorp_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-20T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE SERVICIOS ADMINISTRADOS\nCliente: Ferreycorp\nAlcance: Gestión de servicios cloud.\nMonto: USD 54,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "5abf6c8c-ee6e-4e9b-88e4-c17eebaee195",
+          "at": "2026-10-20T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "3499b15e-f365-4036-ad01-a31e7608bcaa",
+          "at": "2026-10-20T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 2 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "c3cbed75-2891-4296-9523-1f88f9add589",
+          "at": "2026-10-20T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 2 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "93540be7-185e-4beb-a61d-059eafb55bf5",
+          "at": "2026-10-20T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 2 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        },
+        {
+          "id": "72d3a144-719b-471c-b353-5c0bd698d961",
+          "at": "2026-10-20T10:40:00-05:00",
+          "user": "Laura García",
+          "role": "management",
+          "action": "Aprobación de Gerencia",
+          "detail": "Versión 2 validada. Se completaron las cuatro aprobaciones.",
+          "type": "approved"
+        },
+        {
+          "id": "31b36c4a-3378-45f7-a684-9b764c055e2f",
+          "at": "2026-10-20T11:30:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Firma registrada (demo)",
+          "detail": "Se completó el proceso de firma del contrato.",
+          "type": "signed"
+        }
+      ],
+      "signature": {
+        "method": "Firma manual",
+        "at": "2026-10-20T11:30:00-05:00",
+        "user": "Valeria Soto"
+      }
+    },
+    {
+      "id": "CL-2026-0003",
+      "client": "Casa Andina",
+      "title": "Soporte de plataformas digitales",
+      "service": "Soporte y mantenimiento",
+      "amount": 24000,
+      "currency": "USD",
+      "stage": 4,
+      "status": "sent",
+      "created": "2026-10-19T09:20:00-05:00",
+      "updated": "2026-10-19T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@casaandina.example",
+      "description": "Prestación de soporte y mantenimiento para Casa Andina, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-19T10:10:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-19T10:20:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-19T10:30:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 3,
+          "user": "Laura García",
+          "at": "2026-10-19T10:40:00-05:00",
+          "version": 1
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-9-1",
+          "name": "casa-andina_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-19T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE SOPORTE Y MANTENIMIENTO\nCliente: Casa Andina\nAlcance: servicio inicial de consultoría.\nMonto: USD 24,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "2e65eda5-d708-4054-a04f-669519b3b85d",
+          "at": "2026-10-19T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "7c6d1ec5-eebe-4d11-b870-ec0f3a331f3d",
+          "at": "2026-10-19T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 1 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "9242cdd2-d340-4cbe-a05a-31c55b8968f8",
+          "at": "2026-10-19T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 1 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "3c9c1467-84f4-48e4-9462-e586124476d3",
+          "at": "2026-10-19T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 1 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        },
+        {
+          "id": "1293fdc0-bc72-45f5-a8ad-949b9f2c95e4",
+          "at": "2026-10-19T10:40:00-05:00",
+          "user": "Laura García",
+          "role": "management",
+          "action": "Aprobación de Gerencia",
+          "detail": "Versión 1 validada. Se completaron las cuatro aprobaciones.",
+          "type": "approved"
+        },
+        {
+          "id": "289f765e-6bc5-4968-bd69-bf5b29682fa9",
+          "at": "2026-10-19T11:30:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Envío al cliente simulado",
+          "detail": "Contrato listo para firma de Casa Andina.",
+          "type": "sent"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0002",
+      "client": "Belcorp",
+      "title": "Consultoría de transformación digital",
+      "service": "Consultoría tecnológica",
+      "amount": 39000,
+      "currency": "USD",
+      "stage": 4,
+      "status": "approved",
+      "created": "2026-10-18T09:20:00-05:00",
+      "updated": "2026-10-18T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@belcorp.example",
+      "description": "Prestación de consultoría tecnológica para Belcorp, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-18T10:10:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-18T10:20:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-18T10:30:00-05:00",
+          "version": 2
+        },
+        {
+          "phase": 3,
+          "user": "Laura García",
+          "at": "2026-10-18T10:40:00-05:00",
+          "version": 2
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-10-1",
+          "name": "belcorp_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-18T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE CONSULTORÍA TECNOLÓGICA\nCliente: Belcorp\nAlcance: servicio inicial de consultoría.\nMonto: USD 39,000.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        },
+        {
+          "number": 2,
+          "id": "seed-10-2",
+          "name": "belcorp_contrato_v2.pdf",
+          "size": 0,
+          "at": "2026-10-18T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Actualización del alcance y condiciones de pago.",
+          "text": "CONTRATO DE CONSULTORÍA TECNOLÓGICA\nCliente: Belcorp\nAlcance: Consultoría de transformación digital.\nMonto: USD 39,000.\nForma de pago: a 30 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 24 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "e4ae7c12-ae0a-48f2-9082-b0dc85cf271f",
+          "at": "2026-10-18T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "e2e04916-58ff-4b52-bd9a-692f093a00b8",
+          "at": "2026-10-18T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 2 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "51513d3f-2f4a-4fc3-8312-ce8caa3ae668",
+          "at": "2026-10-18T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 2 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "a96cdc56-6cd0-4bf1-94d1-695f17d0c2e7",
+          "at": "2026-10-18T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 2 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        },
+        {
+          "id": "5e4a4f1f-3ff2-4777-bdc4-c180a8f5ae0c",
+          "at": "2026-10-18T10:40:00-05:00",
+          "user": "Laura García",
+          "role": "management",
+          "action": "Aprobación de Gerencia",
+          "detail": "Versión 2 validada. Se completaron las cuatro aprobaciones.",
+          "type": "approved"
+        }
+      ]
+    },
+    {
+      "id": "CL-2026-0001",
+      "client": "La Positiva",
+      "title": "Migración de entorno productivo",
+      "service": "Migración Cloud",
+      "amount": 46500,
+      "currency": "USD",
+      "stage": 4,
+      "status": "signed",
+      "created": "2026-10-17T09:20:00-05:00",
+      "updated": "2026-10-17T11:30:00-05:00",
+      "start": "2026-11-01",
+      "end": "2027-10-31",
+      "email": "contacto@lapositiva.example",
+      "description": "Prestación de migración cloud para La Positiva, de acuerdo con el alcance y los entregables establecidos.",
+      "owner": "Valeria Soto",
+      "approvals": [
+        {
+          "phase": 0,
+          "user": "Diego Mendoza",
+          "at": "2026-10-17T10:10:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 1,
+          "user": "Valeria Soto",
+          "at": "2026-10-17T10:20:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 2,
+          "user": "Alejandro Torres",
+          "at": "2026-10-17T10:30:00-05:00",
+          "version": 1
+        },
+        {
+          "phase": 3,
+          "user": "Laura García",
+          "at": "2026-10-17T10:40:00-05:00",
+          "version": 1
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "id": "seed-11-1",
+          "name": "la-positiva_contrato_v1.pdf",
+          "size": 0,
+          "at": "2026-10-17T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "summary": "Documento inicial de la solicitud.",
+          "text": "CONTRATO DE MIGRACIÓN CLOUD\nCliente: La Positiva\nAlcance: servicio inicial de consultoría.\nMonto: USD 46,500.\nForma de pago: a 60 días de la factura.\nVigencia: del 01/11/2026 al 31/10/2027.\nConfidencialidad: 12 meses desde la finalización.",
+          "demo": true
+        }
+      ],
+      "observations": [],
+      "events": [
+        {
+          "id": "758b4699-292a-4854-98fb-bd6820a02094",
+          "at": "2026-10-17T09:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Solicitud registrada",
+          "detail": "Se adjuntó la primera versión del contrato. Revisión asignada a Legal.",
+          "type": "created"
+        },
+        {
+          "id": "40c9897d-7b1c-4c52-8ce0-3a4cd292825a",
+          "at": "2026-10-17T10:10:00-05:00",
+          "user": "Diego Mendoza",
+          "role": "legal",
+          "action": "Aprobación de Legal",
+          "detail": "Versión 1 validada. Se asignó la revisión a Comercial.",
+          "type": "approved"
+        },
+        {
+          "id": "cf6d7e17-357c-413f-a5eb-73911f47dc9d",
+          "at": "2026-10-17T10:20:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Aprobación de Comercial",
+          "detail": "Versión 1 validada. Se asignó la revisión a Finanzas.",
+          "type": "approved"
+        },
+        {
+          "id": "c253e432-70d6-4f2a-9e38-362d2979b4be",
+          "at": "2026-10-17T10:30:00-05:00",
+          "user": "Alejandro Torres",
+          "role": "finance",
+          "action": "Aprobación de Finanzas",
+          "detail": "Versión 1 validada. Se asignó la revisión a Gerencia.",
+          "type": "approved"
+        },
+        {
+          "id": "f42c6a41-2cb6-48dc-898f-8b83c1759380",
+          "at": "2026-10-17T10:40:00-05:00",
+          "user": "Laura García",
+          "role": "management",
+          "action": "Aprobación de Gerencia",
+          "detail": "Versión 1 validada. Se completaron las cuatro aprobaciones.",
+          "type": "approved"
+        },
+        {
+          "id": "0dafe6d8-a7c9-419a-a5a2-a5729295fae6",
+          "at": "2026-10-17T11:30:00-05:00",
+          "user": "Valeria Soto",
+          "role": "commercial",
+          "action": "Firma registrada (demo)",
+          "detail": "Se completó el proceso de firma del contrato.",
+          "type": "signed"
+        }
+      ],
+      "signature": {
+        "method": "Firma manual",
+        "at": "2026-10-17T11:30:00-05:00",
+        "user": "Valeria Soto"
+      }
+    }
+  ],
+  "notificationsRead": false
+}
